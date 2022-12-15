@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: sans-serif;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+
+.App {
+  padding: 1rem;
+}
+
+.random_user_list {
+  color: white;
+  background-color: rgb(39, 39, 39);
+  padding: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.list_search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_box {
+  background-color: white;
+  outline: none;
+  height: 4px;
+  width: 300px;
+  border: 1px solid gray;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 5rem;
+}
+
+.table_container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.user_table {
+  table-layout: fixed;
+  background-color: white;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  font-size: 1.2vw;
+}
+
+td {
+  text-align: left;
+  padding: 10px 6px;
+  border-bottom: 1px solid lightgray;
+}
+
+th {
+  text-align: left;
+  padding: 6px;
+  cursor: pointer;
+  border-bottom: 2px solid black;
+}
